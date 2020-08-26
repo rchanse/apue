@@ -2,6 +2,22 @@ Wed 26 Aug 2020 12:16:38 PM CDT
 Here we start    
 
 /home/rchansen/apue2
-                   /apue       - directory to original code
-                   rchnotes    - my notes
-                   Sourcefiles - taken from apue/Source filesh
+                   /rch2       - directory to original code
+                     rchnotes    - my notes
+                     Sourcefiles - taken from apue/Source filesh
+
+First get the tarball  start in  www.apuebbook.com
+choose the 1992 version rt click
+near bottom is version for  RedHat 6.0   click on Here is
+to get  apue.linux3.tar.Z   put it in  /home/rchansen/apue2
+prepare a new directory  mkdir rch2
+get original code in top directory  tar -xzvh apue.linux3.tar.Z -C rch2 
+
+in the /home/rchansen/apue2/rch2  set up for git  
+after git init     git config --global core.editor vim       set editor
+                   git config --global color.ui false        colors off
+                   git config --list                         show vals
+
+add for f      rchn   /home/rchansen/apue2/rch2/rchnotes
+directory of my work  ~/apue2/rch2/ccode
+
