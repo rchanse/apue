@@ -1,2 +1,4 @@
 #member    description
-11asummary - one line summary of  ~/rch2/ccode  
+11asummary - one line summary of  ~/rch2/ccode 
+msg_errors.h - header to write error messages apue appendix  
+ourhdr.h - suggest local header see apue appendix 
