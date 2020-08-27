@@ -21,3 +21,13 @@ after git init     git config --global core.editor vim       set editor
 add for f      rchn   /home/rchansen/apue2/rch2/rchnotes
 directory of my work  ~/apue2/rch2/ccode
 
+use Sourcefile to get pgms into ccode
+in dir ~/apue2/rch2/ccode
+
+to get a file  mm.nn  dir/file  with
+   :0r ../apue/dir/file
+   make changes as needed
+   ctrl-z
+   compile as needed   usual is   gcc mm.nn.c    to put into a.out
+   use fg  and jobs  to make corrections
+   good luck  - rch  Wed 26 Aug 2020 09:27:07 PM CDT

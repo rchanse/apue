@@ -3,8 +3,12 @@
 1.2.c    - read from term, write to screen  outhdr.h msg_errors.h is hdrs 
 1.3.c    - getc from stdin, putc to stdout 
 1.4.c    - the usual "hello world" pgm with ourhdr.h 
+1.5.c    - baby shell  fgets strlen fork execlp waitpid 
+1.6.c    - sample use of perror and strerror 
+1.7.c    - sample use of getuid getgid 
+1.8.c  - another baby shell    
 11asummary - one line summary of  ~/rch2/ccode 
-Sourcefiles - xref between book pgms and  ~/apue2/rch2/apue/ (dir) / (file)   
+Sourcefiles - xref between book pgms and  ~/apue2/rch2/apue/ (dir) / (file) 
 msg_errors.h - header to write error messages apue appendix 
 ourhdr.h - suggest local header see apue appendix 
 shell0.c - week baby shell   fork, ourhdr.h,  msg_errors.h 
