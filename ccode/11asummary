@@ -1,4 +1,9 @@
 #member    description
+1.1.c    - list directory pgm  outhdr.h msg_errors.h  as a.out 
 11asummary - one line summary of  ~/rch2/ccode 
-msg_errors.h - header to write error messages apue appendix  
+msg_errors.h - header to write error messages apue appendix 
 ourhdr.h - suggest local header see apue appendix 
+shell0.c - week baby shell   fork, ourhdr.h,  msg_errors.h 
+unbuf.c  - read from term, write to screen  outhdr.h msg_errors.h inline 
+unbuf1.c - read from term, write to screen  outhdr.h msg_errors.h is hdrs 
+varstuff.c - sample use of va_start va_end macros  
