@@ -2,10 +2,12 @@
 1.1.c    - list directory pgm  outhdr.h msg_errors.h  as a.out 
 1.2.c    - read from term, write to screen  outhdr.h msg_errors.h is hdrs 
 1.3.c    - getc from stdin, putc to stdout 
+1.4.c    - the usual "hello world" pgm with ourhdr.h 
 11asummary - one line summary of  ~/rch2/ccode 
+Sourcefiles - xref between book pgms and  ~/apue2/rch2/apue/ (dir) / (file)   
 msg_errors.h - header to write error messages apue appendix 
 ourhdr.h - suggest local header see apue appendix 
 shell0.c - week baby shell   fork, ourhdr.h,  msg_errors.h 
 unbuf.c  - read from term, write to screen  outhdr.h msg_errors.h inline 
 unbuf1.c - read from term, write to screen  outhdr.h msg_errors.h is hdrs 
-varstuff.c - sample use of va_start va_end macros  
+varstuff.c - sample use of va_start va_end macros 
