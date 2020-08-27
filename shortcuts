@@ -1,0 +1,15 @@
+
+# found in c scrip  quick dir change
+
+gocdit $1 $action 2ap   ~/apue2          
+gocdit $1 $action 2cc ~/apue2/rch2/ccode    
+gocdit $1 $action 2rch  ~/apue2/rch2          
+
+ff    apue
+rchn ~/apue2/rch2/rchnotes
+Sf   ~/apue2/rch2/Sourcefiles
+
+gg    apue
+~/apue2
+~/apue2/rch2
+~/apue2/rch2/ccode
