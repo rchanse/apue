@@ -1,5 +1,5 @@
 #member    description
-1.1.c    - list directory pgm  outhdr.h msg_errors.h  as a.out 
+1.1.c    - list all files in a directory pgm  outhdr.h msg_errors.h  as a.out 
 1.2.c    - read from term, write to screen  outhdr.h msg_errors.h is hdrs 
 1.3.c    - getc from stdin, putc to stdout 
 1.4.c    - the usual "hello world" pgm with ourhdr.h 

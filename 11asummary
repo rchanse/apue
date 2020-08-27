@@ -1,0 +1,8 @@
+#member    description
+.git     - usual 
+.gitignore - ignored files 
+Sourcefiles - xrefs  apue pgm   and  dir/file  
+apue     - dir tree of original apue code 
+ccode    - dir tree of rch modified code 
+commit001 - list of files in original commit 
+rchnotes - my running notes and comments 
