@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+mkdir -p ~/bin/ff_acrolist_dir
+mkdir -p ~/bin/gg_acrolist_dir
+ls -alhR ~/bin
+cd $HOME/apue2/rch2/binscripts
+. abin
+. abin $HOME/apue2/rch2/binscripts
+echo $PATH

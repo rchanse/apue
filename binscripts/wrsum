@@ -1,0 +1,45 @@
+#!/bin/bash
+
+ls > temp
+file_input=$PWD"/11asummary"
+cat $file_input temp > temp2       
+echo here
+file_output=$PWD"/11asummary.out"
+echo "#member    description" > 11asummary.out
+
+let lineno=2     # add 1 for header:
+
+while  read -r filename dash  rest ; do
+  fill=""
+  newline=""
+  ll=${#filename}          #/ length
+  let lll=8-$ll
+  if [ $lll -ge 0 ]; then
+    star="           "
+    fill=${star:0:$lll}    #/ a number of blanks pad to 8
+  fi
+  newline="$filename$fill $dash $rest "  #/ build summary line
+  
+  if [ ".-" == ".$dash" ]; then
+    echo "$newline"  >> 11asummary.out    #/ rebuilding 11asummary
+    let lineno=$lineno+1
+  fi
+
+  if [ "$filename" == "$1" ]; then
+    echo "$newline"  >> $PWD"/11asummary.out"
+    let findline=$lineno
+  fi
+done < temp2            # end read loop from given file_input
+echo vim +$findline 11asummary.out
+vim +$findline 11asummary.out
+
+echo -e "Hit Enter to rewrite 11asummary "
+read value
+if [ ".$value" == "." ]; then
+  cp 11asummary.out 11asummary
+  echo "l1asummary refreshed from 11asummary.out"
+else
+  echo "11asummary not touched"
+fi
+
+
