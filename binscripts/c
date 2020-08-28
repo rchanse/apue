@@ -62,8 +62,8 @@ fi
 #  godo $1 $action    
 gocdit $1 $action 21    ~/blp/test/21days
 gocdit $1 $action 21    ~/blp/test/21days
-gocdit $1 $action 2ap   ~/apue2          
-gocdit $1 $action 2cc ~/apue2/rch2/ccode    
+gocdit $1 $action 2ap   ~/apue          
+gocdit $1 $action 2cc ~/apue/ccode    
 gocdit $1 $action 2rch  ~/apue2/rch2          
 gocdit $1 $action 31    ~/blp/test/31days
 gocdit $1 $action 6c     ~/xv6/ccode 
